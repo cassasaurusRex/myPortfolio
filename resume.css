@@ -1,0 +1,115 @@
+/*-------- Basic Styles----------*/
+
+body{
+  font:Arial;
+
+}
+
+.main-header {
+  padding-top: 170px;
+  height: 450px;
+  background: #ffa949 url('cassie1.jpg') no-repeat center;
+  background-size: cover;
+  border-bottom: solid darkblue 10px;
+}
+h1 {
+  font-size:90px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.intro{
+  color: darkgray;
+  font-size: 45px;
+}
+.section-title {
+  clear: both;
+  text-transform: capitalize;
+}
+nav {
+  padding-right: 30px;
+  float: right;
+}
+a {
+  padding-left: 15px;
+  font-size:25px;
+  transition-duration: 0.4s;
+}
+.contact-button {
+  text-align: center;
+}
+.button {
+    background-color: transparent;
+    color: white;
+    padding:10px 15px 10px 15px;
+    border: 3px solid white;
+    transition-duration: 0.4s;
+}
+#cassie2 {
+  float: left;
+  height: 350px;
+  width:250px;
+  padding-right: 45px;
+  margin-bottom: 65px;
+}
+.qualifications {
+  width: 30%;
+  text-align: center;
+  padding: 10px 50px;
+  margin-left: 10%;
+  clear: left;
+  background-color: darkblue;
+  color:white;
+  float: left;
+  box-shadow: inset 0 0 50px 10px rgba(1,1,1, .8);
+
+
+}
+.experience {
+  width: 30%;
+  text-align: center;
+  padding: 10px 50px;
+  margin-right: 10%;
+  float: right;
+  background-color: darkblue;
+  color:white;
+  box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+}
+ul {
+  list-style:none;
+
+}
+.secondary-content {
+  clear:both;
+}
+footer {
+  color:white;
+  text-align: center;
+  background-color: darkblue;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: white;
+}
+.button:hover {
+  border-color: darkblue;
+  background-color:darkblue;
+}
